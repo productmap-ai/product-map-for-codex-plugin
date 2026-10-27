@@ -1,0 +1,6 @@
+interface:
+  display_name: "PM: Connect"
+  short_description: "Connect this folder to its Product Map project"
+  icon_small: "./assets/product-map-small.png"
+  icon_large: "./assets/product-map.png"
+  default_prompt: "Use $pm-connect to connect this folder to its Product Map project."

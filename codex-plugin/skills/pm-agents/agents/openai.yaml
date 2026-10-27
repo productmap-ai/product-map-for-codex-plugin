@@ -1,0 +1,6 @@
+interface:
+  display_name: "PM: Agents"
+  short_description: "List the Product Map agents for this project"
+  icon_small: "./assets/product-map-small.png"
+  icon_large: "./assets/product-map.png"
+  default_prompt: "Use $pm-agents to list the Product Map agents available for this project."

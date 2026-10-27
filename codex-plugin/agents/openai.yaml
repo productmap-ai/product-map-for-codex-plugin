@@ -1,0 +1,6 @@
+interface:
+  display_name: "Product Map"
+  short_description: "Product-management agents that answer with your project's context"
+  icon_small: "./assets/product-map-small.png"
+  icon_large: "./assets/product-map.png"
+  default_prompt: "Use a $pm- skill to run a Product Map agent on the work in progress: $pm-product-strategy-roadmap, $pm-prd-specification, $pm-ideal-customer-profile-icp, or $pm-agents to see them all."

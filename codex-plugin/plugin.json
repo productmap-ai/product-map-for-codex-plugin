@@ -1,0 +1,42 @@
+{
+  "$schema": "https://agent-plugins.org/schemas/1.0.0/plugin.schema.json",
+  "name": "product-map",
+  "version": "1.0.0",
+  "description": "Product Map's product-management agents as skills in Codex: $pm-product-strategy-roadmap, $pm-prd-specification and friends answer with your project's knowledge base as context, inside your normal coding session, and propose knowledge changes you review like code.",
+  "author": {
+    "name": "Product Map",
+    "email": "hey@productmap.io",
+    "url": "https://www.productmap.io"
+  },
+  "homepage": "https://www.productmap.io",
+  "repository": "https://github.com/productmap-ai/product-map-for-codex-plugin",
+  "license": "Proprietary",
+  "keywords": [
+    "product-management",
+    "productmap",
+    "prd",
+    "strategy",
+    "discovery",
+    "okr",
+    "mcp"
+  ],
+  "extensions": {
+    "com.openai": {
+      "interface": {
+        "displayName": "Product Map",
+        "shortDescription": "Product management AI agents",
+        "longDescription": "Product Map's product-management agents as skills in Codex: $pm-product-strategy-roadmap, $pm-prd-specification and friends answer with your project's knowledge base as context, inside your normal coding session, and propose knowledge changes you review like code.",
+        "developerName": "Product Map",
+        "category": "Productivity",
+        "websiteURL": "https://www.productmap.io/",
+        "supportURL": "https://www.productmap.io/",
+        "privacyPolicyURL": "https://www.productmap.io/privacy-policy",
+        "termsOfServiceURL": "https://www.productmap.io/terms-of-use",
+        "composerIcon": "./assets/product-map-small.png",
+        "logo": "./assets/product-map.png",
+        "defaultPrompt": "Use a $pm- skill to run a Product Map agent on the work in progress, or $pm-agents to see them all."
+      },
+      "onboardingSkill": "./skills/pm-connect/SKILL.md"
+    }
+  }
+}
